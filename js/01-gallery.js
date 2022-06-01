@@ -32,7 +32,7 @@ function onItemClick(e) {
     `, {
         onShow: (instance) => {
             window.addEventListener('keydown', (evt) => {
-                if (evt.key === 'Escape', 'D') {
+                if (evt.key === 'Escape','keyD') {
                    return instance.close();
                 };
             });
