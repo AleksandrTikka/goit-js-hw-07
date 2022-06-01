@@ -11,7 +11,7 @@ const imagesMarkup = galleryItems
       class="gallery__image"
       src='${galleryItem.preview}'
       data-source='${galleryItem.original}'
-      alt="Image description"
+      alt='${galleryItem.description}'
     />
   </a>
 </div>`)
